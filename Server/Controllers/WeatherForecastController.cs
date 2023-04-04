@@ -64,5 +64,12 @@ namespace ErrorDetailsRFC7807.Server.Controllers
     {
       return TypedResults.Problem($"Problem was found in {nameof(GetErrorFeatureOnResultsUsingTypedResultsProblem)}");
     }
+
+    [HttpGet]
+    [Route("ErrorFeatureOnResultsUsingTypedResultsBadRequest")]
+    public Results<BadRequest, Ok<IEnumerable<WeatherForecast>>> GetErrorFeatureOnResultsUsingTypedResultsBadRequest()
+    {
+      return TypedResults.BadRequest();
+    }
   }
 }

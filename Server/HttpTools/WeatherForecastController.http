@@ -15,3 +15,5 @@ GET {{host}}/WeatherForecast/ErrorFeatureOnIActionResult
 GET {{host}}/WeatherForecast/ErrorFeatureOnResults
 ###
 GET {{host}}/WeatherForecast/ErrorFeatureOnResultsUsingTypedResultsProblem
+###
+GET {{host}}/WeatherForecast/ErrorFeatureOnResultsUsingTypedResultsBadRequest
