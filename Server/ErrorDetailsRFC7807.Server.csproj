@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="7.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client\ErrorDetailsRFC7807.Client.csproj" />
+    <ProjectReference Include="..\Shared\ErrorDetailsRFC7807.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="HttpTools\" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,17 @@
+# VARIABLES
+@scheme = https
+@hostname = localhost
+@port = 7261
+@host = {{scheme}}://{{hostname}}:{{port}}
+@contentType = application/json
+
+# TenantsConfig API
+GET {{host}}/WeatherForecast
+###
+GET {{host}}/WeatherForecast/SimpleException
+###
+GET {{host}}/WeatherForecast/ErrorFeatureOnIActionResult
+###
+GET {{host}}/WeatherForecast/ErrorFeatureOnResults
+###
+GET {{host}}/WeatherForecast/ErrorFeatureOnResultsUsingTypedResultsProblem
