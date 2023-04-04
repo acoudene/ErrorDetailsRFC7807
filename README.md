@@ -8,7 +8,7 @@ See "Settings" chapter at the end of this file.
 
 ## Context
 
-I have use 4 ways of generating errors based on this document https://learn.microsoft.com/en-us/aspnet/core/web-api/action-return-types?view=aspnetcore-7.0
+I have used 4 ways of generating errors based on this document https://learn.microsoft.com/en-us/aspnet/core/web-api/action-return-types?view=aspnetcore-7.0
 
 - Exception (/WeatherForecast/SimpleException)
 Result response is compliant to standard definition of AddProblemDetails extensions based on RFC7807
