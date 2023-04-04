@@ -14,7 +14,7 @@ I have used 4 ways of generating errors based on this document https://learn.mic
 **Result response is compliant to standard definition of AddProblemDetails extensions based on RFC7807**
 
 - Error using this feature on IActionResult return type (/WeatherForecast/ErrorFeatureOnIActionResult): 
-**Result Response is compliant to customized defintion of AddProblemDetails extensions.**
+**Result Response is compliant to customized definition of AddProblemDetails extensions.**
 
 - Error using this feature on Results return type (/WeatherForecast/ErrorFeatureOnResults): 
 **No body in result Response, it is not compliant to customized defintion of AddProblemDetails extensions.**
